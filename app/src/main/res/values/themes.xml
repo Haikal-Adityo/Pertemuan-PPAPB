@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pertemuan8Tugas" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Base.Theme.Pertemuan8Tugas.withActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Theme.Pertemuan8Tugas" parent="Base.Theme.Pertemuan8Tugas" />
+</resources>
