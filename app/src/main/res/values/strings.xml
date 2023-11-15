@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Pertemuan5</string>
+
+    <!--* MAIN ACTIVITY  -->
+    <string name="latihan_intent">Latihan Intent</string>
+    <string name="tugas_intent">Tugas Intent</string>
+
+    <!--* FIRST ACTIVITY  -->
+    <string name="to_second">TAP TO SECOND</string>
+    <string name="hint_masukan_nama_anda">Masukan nama anda</string>
+
+    <!--* SECOND ACTIVITY  -->
+    <string name="hint_name">Name</string>
+    <string name="to_third">TAP TO THIRD</string>
+
+    <!--* THIRD ACTIVITY  -->
+    <string name="hint_address">Address</string>
+    <string name="dismiss">DISMISS</string>
+
+    <!--* FORM ACTIVITY  -->
+    <string name="hint_username">Username</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="register">Register</string>
+    <string name="checkbox_tac">By checking the box you agree to our Terms and Conditons.</string>
+    <string name="already_have_an_account">Already Have an Account? Log In</string>
+
+    <!--* FORM ACTIVITY  -->
+    <string name="homepage">Homepage</string>
+    <string name="logout">Logout</string>
+
+</resources>
