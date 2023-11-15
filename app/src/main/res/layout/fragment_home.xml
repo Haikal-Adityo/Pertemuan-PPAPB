@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg_color"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to \n Home Page"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginVertical="8dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Explore destination"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingHorizontal="50dp"
+        android:backgroundTint="@color/blue"
+        android:paddingVertical="10dp"
+        android:layout_marginVertical="8dp"
+        app:cornerRadius="10dp" />
+
+</LinearLayout>
