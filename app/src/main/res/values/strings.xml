@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">Pertemuan4</string>
+
+    <!--  TITLE  -->
+
+    <string name="latihan_constraint_layout">Latihan Constraint</string>
+    <string name="tugas_constraint">Tugas Constraint</string>
+
+    <!--  TOOLBAR LAYOUT  -->
+
+    <string name="news_app">NEWS APP</string>
+
+    <!--  NEWS  -->
+
+    <string name="news_title">Lorem Ipsum</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel orci egestas, fermentum enim eget, sollicitudin ligula. Sed ante nunc, ullamcorper iaculis tempus rutrum, gravida sed metus. Mauris finibus magna eget condimentum mattis. Morbi ac diam vitae lorem consequat ultricies in quis odio. Morbi at metus vel nunc porttitor tristique eu nec elit. Donec scelerisque ipsum nunc, sed convallis nulla placerat lobortis. Proin facilisis posuere lacus, consequat tincidunt orci sagittis a. Proin ut odio non elit dictum cursus eu quis velit. Pellentesque accumsan velit ac suscipit vestibulum.
+
+    Sed et massa gravida, consectetur diam eget, posuere mauris. Phasellus lacinia tincidunt tellus, et ultricies odio convallis nec. Nam ut iaculis ligula, sed fringilla diam. Donec turpis quam, faucibus id nulla et, aliquam mollis lorem. Praesent condimentum ac dui vitae varius. Nam elementum tempus aliquet. Suspendisse dictum eget sapien eu tristique. Nulla justo risus, finibus in consectetur vitae, scelerisque id tellus. Etiam cursus convallis metus vitae pretium. Quisque placerat justo turpis, ut pharetra felis placerat a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean egestas ac mauris sed congue. Fusce nec scelerisque odio. Quisque pellentesque felis nec eros ultrices, sed vehicula dui scelerisque.
+
+    Nam at ornare neque. Aliquam aliquam, lectus sed rutrum lobortis, nunc nunc pretium quam, nec rhoncus leo magna non metus. Proin nibh neque, elementum quis consectetur at, sagittis ut ante. Phasellus tempus, quam eget egestas aliquet, tellus turpis mattis orci, sit amet ultrices nulla lacus vitae arcu. Vivamus eu feugiat odio, quis ultricies magna. Donec ac pulvinar lectus. Sed sagittis lobortis maximus. Vestibulum lobortis sodales lorem vel vehicula. Aenean pretium massa quis diam iaculis faucibus. Proin fermentum aliquet leo vel venenatis.
+
+    Donec vitae elementum massa, ultricies feugiat tellus. Sed ac eros at sapien sagittis gravida. Ut vitae augue sit amet mauris finibus posuere. Nullam blandit tristique ultricies. Suspendisse id risus nulla. Donec sit amet justo dignissim, condimentum leo quis, vehicula enim. Praesent elementum velit et elit imperdiet blandit. Curabitur dapibus scelerisque eros sed pulvinar. Nullam eu porttitor dolor. Phasellus quis tortor elementum, hendrerit nisl eget, vehicula nisi. Phasellus condimentum a nisl ut molestie. Cras posuere tellus urna, ut maximus metus porta ac. Donec vestibulum ac magna at accumsan. Vivamus ut augue metus. Donec convallis ultricies ornare. Sed tempor, lacus nec aliquet molestie, augue mauris egestas diam, ut euismod ipsum justo id nulla.
+    </string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
+
+    <!--  BANK  -->
+
+    <string name="welcome">Hi Clarencce,</string>
+    <string name="balance">5,600.00</string>
+
+
+</resources>
