@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">P10</string>
+
+    <string name="apple_keterangan">Apples are crisp and juicy fruits with a wide range of colors and flavors. They are known for their versatility and are used in various culinary applications, from snacks to pies and cider. Apples are a great source of dietary fiber and vitamin C, promoting digestive health and overall well-being.</string>
+    <string name="orange_keterangan">Oranges are citrus fruits renowned for their vibrant color and refreshing, tangy taste. Rich in vitamin C and other antioxidants, they strengthen the immune system and support healthy skin. Oranges are often enjoyed fresh as a snack or consumed in various forms, including juice, to provide a zesty burst of flavor.</string>
+    <string name="banana_keterangan">Bananas are potassium-rich fruits with a creamy texture and sweet flavor. They are a convenient, on-the-go snack and are packed with essential nutrients, making them an excellent choice for replenishing energy. Bananas are also a versatile ingredient in smoothies, desserts, and baked goods.</string>
+    <string name="kiwi_keterangan">Kiwis, with their small, fuzzy exteriors and emerald-green flesh speckled with tiny black seeds, offer a unique and tangy-sweet taste. These vitamin C powerhouses support immune health, and their dietary fiber aids digestion. Kiwis are often sliced and eaten as is, but they also make a delightful addition to fruit salads.</string>
+    <string name="strawberry_keterangan">Strawberries are heart-shaped, vibrant red berries known for their naturally sweet taste and delightful aroma. Packed with vitamin C and antioxidants, they are excellent for skin health and immune support. Strawberries are used in a myriad of culinary delights, from jams and desserts to fresh toppings for salads and breakfast dishes.</string>
+    <string name="grape_keterangan">Grapes come in a variety of colors, such as red, green, and black, and are appreciated for their sweet and juicy nature. Grapes are not only a delicious snack but also a key ingredient in wine production. They are a source of antioxidants and can contribute to heart health when consumed in moderation.</string>
+
+</resources>

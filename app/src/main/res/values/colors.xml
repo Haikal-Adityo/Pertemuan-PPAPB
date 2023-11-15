@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#26000000</color>
+    <color name="offWhite">#F4F4F4</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="my_light_primary">#4CAF50</color>
+
+    <color name="redTextColor">#EF3D30</color>
+    <color name="OrangeTextColor">#FF5722</color>
+    <color name="YellowTextColor">#FFC107</color>
+    <color name="GreenTextColor">#4CAF50</color>
+    <color name="PinkTextColor">#DA5885</color>
+    <color name="PurpleTextColor">#714BB6</color>
+
+</resources>
