@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25sp"
+    android:background="@color/dark_grey"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_angka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10sp"
+        android:background="@drawable/border_outline"
+        android:fontFamily="@font/montserrat_medium"
+        android:hint="@string/masukan_angka_1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_operator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_angka1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserrat_medium"
+        android:hint="@string/operator"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        app:cornerRadius="90dp"/>
+
+    <TextView
+        android:id="@+id/txt_angka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_operator"
+        android:layout_marginVertical="10sp"
+        android:background="@drawable/border_outline"
+        android:fontFamily="@font/montserrat_medium"
+        android:hint="@string/masukan_angka_2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_titleHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_hasil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5sp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/hasil"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_grid"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/border_outline"
+        android:fontFamily="@font/montserrat_medium"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/layout_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:useDefaultMargins="true"
+        android:layout_alignParentBottom="true"
+        tools:context=".MainActivity" >
+
+        <!--ROW 1-->
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/tujuh"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/delapan"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/sembilan"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_kali"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/kali"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <!--ROW 2-->
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/empat"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/lima"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/enam"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_kurang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/kurang"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <!--ROW 3-->
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/satu"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/dua"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/tiga"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_tambah"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/tambah"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <!--ROW 4-->
+
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/nol"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_bagi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/bagi"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+        <Button
+            android:id="@+id/btn_samadengan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/samadengan"
+            android:textSize="40sp"
+            app:cornerRadius="4sp" />
+
+    </GridLayout>
+
+
+</RelativeLayout>

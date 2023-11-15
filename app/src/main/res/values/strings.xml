@@ -1,0 +1,46 @@
+<resources>
+
+    <!--  TITLE  -->
+
+    <string name="latihan_relative_layout">Latihan Relative Layout</string>
+    <string name="tugas_kalkulator">Tugas Kalkulator</string>
+
+    <!--  PHONE  -->
+
+    <string name="app_name">Pertemuan3</string>
+    <string name="title">My Phone</string>
+    <string name="phone_name">Samsung Galaxy S22</string>
+    <string name="phone_price">$522.99</string>
+    <string name="phone_desc">
+        The Samsung Galaxy S22 specs are top-notch including a Snapdragon 8 Gen 1 chipset,
+        8GB RAM coupled with 128/256GB storage, and a 3700mAh battery with 25W charging speed.
+        The phone sports a 6.1-inch Dynamic AMOLED display with an adaptive 120Hz refresh rate.
+    </string>
+    <string name="memory">256 GB | 8GB</string>
+    <string name="camera">50 MP, f/1.8, 23mm (wide)</string>
+    <string name="bookmark">BOOKMARK</string>
+    <string name="masukan_angka_1">Masukan Angka 1</string>
+    <string name="masukan_angka_2">Masukan Angka 2</string>
+    <string name="hasil">Hasil</string>
+
+    <!--  CALCULATOR  -->
+
+    <string name="satu">1</string>
+    <string name="dua">2</string>
+    <string name="tiga">3</string>
+    <string name="empat">4</string>
+    <string name="lima">5</string>
+    <string name="enam">6</string>
+    <string name="tujuh">7</string>
+    <string name="delapan">8</string>
+    <string name="sembilan">9</string>
+    <string name="nol">0</string>
+
+    <string name="kali">x</string>
+    <string name="bagi">:</string>
+    <string name="tambah">+</string>
+    <string name="kurang">-</string>
+    <string name="samadengan">=</string>
+    <string name="operator">|</string>
+
+</resources>
