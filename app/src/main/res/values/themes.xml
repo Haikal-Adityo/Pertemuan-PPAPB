@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pertemuan11" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.Pertemuan11" parent="Base.Theme.Pertemuan11" />
+</resources>
